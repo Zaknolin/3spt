@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+		<script>
+		$(function(){
+			$(".flip-vertical").flip({
+				trigger: 'hover',
+				axis: 'x'
+			});
+		});
+		</script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+		<div id="flip" class="flip-vertical">
+			<div class="front">
+				<img src="pictures/main.jpg" alt="CALENDAR"/>
+			</div>
+			<div class="back">
+				<img src="pictures/mainflip.jpg" alt="CALENDAR"/>
+			</div>
+		</div>
+	</body>
+</html>
